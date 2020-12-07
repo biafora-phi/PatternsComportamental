@@ -17,7 +17,7 @@ public class InsertionSort implements SortAlgorithm {
             for (int i=1; i<=l.size()-2; i=i+2){
                 if((int)l.get(i) > (int)l.get(i+1)){
                     tmp = (int) l.get(i);
-                    l.set(i, i+1);
+                    l.set(i, l.get(i+1));
                     l.set(i+1, tmp);
                     isSorted = false;
                 }
@@ -26,7 +26,7 @@ public class InsertionSort implements SortAlgorithm {
             for (int i=0; i<=l.size()-2; i=i+2) {
                 if((int)l.get(i) > (int)l.get(i+1)){
                     tmp = (int) l.get(i);
-                    l.set(i, i+1);
+                    l.set(i, l.get(i+1));
                     l.set(i+1, tmp);
                     isSorted = false;
                 }

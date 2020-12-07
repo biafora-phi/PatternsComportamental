@@ -22,5 +22,7 @@
       </Label>
       <Button fx:id="bubble" layoutX="20.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#setBubbleSort" prefHeight="31.0" prefWidth="118.0" text="BubbleSort" />
       <Button fx:id="insertion" layoutX="441.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#SetInsertionSort" prefHeight="31.0" prefWidth="110.0" text="InsertionSort" />
+      <TextField fx:id="nonOrdinato" layoutX="13.0" layoutY="236.0" prefHeight="31.0" prefWidth="577.0" />
+      <TextField fx:id="ordinato" layoutX="13.0" layoutY="295.0" prefHeight="31.0" prefWidth="577.0" />
    </children>
 </AnchorPane>

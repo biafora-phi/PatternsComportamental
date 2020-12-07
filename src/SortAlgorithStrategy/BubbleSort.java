@@ -15,9 +15,8 @@ public class BubbleSort implements SortAlgorithm {
                 int first = (int) l.get(j);
                 int second = (int) l.get(j+1);
                 if(first > second) {
-                    int k = (int) l.get(j);
-                    l.set(j, j+1);
-                    l.set(j+1, k);
+                    l.set(j, second);
+                    l.set(j+1, first);
                     flag=true; //Lo setto a true per indicare che é avvenuto uno scambio
                 }
             }
